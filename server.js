@@ -1019,15 +1019,6 @@ let antibots = JSON.parse(fs.readFileSync('./antibots.json' , 'utf8'));//require
   client.on('message', message => {
     
       if(message.content.startsWith(prefix + "anti bot on")) {
-if (cooldown.has(message.author.id)) {
-      return message.channel.send(`wait for 5 second`).then(m=>{m.delete({timeout:cdtime * 600})})
-    }
-
-    cooldown.add(message.author.id);
-
-    setTimeout(() => {
-      cooldown.delete(message.author.id);
-    }, cdtime * 1000);
           if(!message.channel.guild) return;
          if (message.author.id !== message.guild.ownerID) return;
   antibots[message.guild.id] = {
@@ -1046,15 +1037,6 @@ if (cooldown.has(message.author.id)) {
 
   client.on('message', message => {
     if(message.content.startsWith(prefix + "anti bot off")) {
-if (cooldown.has(message.author.id)) {
-      return message.channel.send(`wait for 5 second`).then(m=>{m.delete({timeout:cdtime * 600})})
-    }
-
-    cooldown.add(message.author.id);
-
-    setTimeout(() => {
-      cooldown.delete(message.author.id);
-    }, cdtime * 1000);
           if(!message.channel.guild) return;
          if (message.author.id !== message.guild.ownerID) return;
   antibots[message.guild.id] = {
