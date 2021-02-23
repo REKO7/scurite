@@ -39,7 +39,7 @@ client.on("ready", async () => {
   console.log(`${client.user.username} Ready .`);
   console.log(`${client.guilds.cache.size} Servers .`);
   console.log(`${client.users.cache.size} Users .`);
-  client.user.setActivity(prefix + "help - Anti Vandalism Is One", {
+  client.user.setActivity(prefix + "help - Security Is One", {
     type: "PLAYING"
   });
 });
