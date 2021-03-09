@@ -31,7 +31,7 @@ const dateFormat = require("dateformat");
 var table = require("table").table;
 const Discord = require("discord.js");
 const cmd = require("node-cmd");
-const prefix = "c!";
+const prefix = "d!";
 const cooldown = new Set()
 const cdtime =5;
 client.login("ODAzNjUwNDI2NTcwMDE0NzMw.YBA3yA.20WkMRXnGCKmJhMhaW3JR0B4yx8");
@@ -61,7 +61,7 @@ if (cooldown.has(message.author.id)) {
       .setThumbnail(message.author.avatarURL)
       .setDescription(`
 
-• To get help on a specific command type \`help <command>!\`
+• To get help on a specific command type \`help <command>d!\`
 
 [ Invite ](https://discord.com/oauth2/authorize?client_id=711328570374619207&permissions=21474836398&scope=bot)  -  [ Support ](https://discord.gg/tnMzVGj8yT)  -  [ Website ](https://aerial-catkin-jumbo.glitch.me/)
 
