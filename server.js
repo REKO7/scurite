@@ -57,7 +57,7 @@ if (cooldown.has(message.author.id)) {
     }, cdtime * 1000);
     let help = new Discord.MessageEmbed()
       .setColor(color)
-      .setFooter("Anti Vandalism : Open Source")
+      .setFooter("")
       .setThumbnail(message.author.avatarURL)
       .setDescription(`
 
@@ -98,11 +98,11 @@ if (cooldown.has(message.author.id)) {
     }, cdtime * 1000);
     let help = new Discord.MessageEmbed()
       .setColor(color)
-      .setFooter("Anti Vandalism : Open Source")
+      .setFooter("")
       .setThumbnail(message.author.avatarURL)
       .setDescription(`${client.user.username} Prefix Is [ ${prefix} ]
 
-<:47A7E1944A2244649B93FDD70CB2826A:813144028589457439> Security Commands
+Security Commands
 \`${prefix}anti ban\`
 \`${prefix}anti kick\`
 \`${prefix}anti channelD\`
