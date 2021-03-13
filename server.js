@@ -878,7 +878,7 @@ if (cooldown.has(message.author.id)) {
       .setDescription(
 
 `AntiBan
-Enabled: <:392D0E91802B4EA4BAC290C6551F76AC:813438486031106089>
+Enabled: <:03CAB11560DA48F39EABBB14A595BC85>
 Maximum Ban : ${config[message.guild.id].banLimit}
 -
 AntiKick
