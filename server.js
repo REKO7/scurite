@@ -31,7 +31,7 @@ const dateFormat = require("dateformat");
 var table = require("table").table;
 const Discord = require("discord.js");
 const cmd = require("node-cmd");
-const prefix = "b!";
+const prefix = "!";
 const cooldown = new Set()
 const cdtime =5;
 client.login("NzcxMTg3OTg1MjcwMDQ2NzQx.X5oexw.NgWCSUQibnlxKWiOe3Aw9ZxqMXs");
@@ -63,7 +63,7 @@ if (cooldown.has(message.author.id)) {
 
 • To get help on a specific command type \`help <command>d!\`
 
-[ Invite ](https://discord.com/oauth2/authorize?client_id=711328570374619207&permissions=21474836398&scope=bot)  -  [ Support ](https://discord.gg/tnMzVGj8yT)  -  [ Website ](https://aerial-catkin-jumbo.glitch.me/)
+[ Invite ](https://discord.com/api/oauth2/authorize?client_id=771187985270046741&permissions=8&scope=bot)  -  [ Support ](https://discord.gg/XvjBAampgp)  -  [ Website ]()
 
 General
 \`${prefix}about\` - \`${prefix}serverinfo\` - \`${prefix}userinfo\`
@@ -1119,7 +1119,7 @@ const embed = new Discord.MessageEmbed()
 .addField('Users', `**${client.users.cache.size}**`, true)
 .addField('My Name' , `**${client.user.tag}**` , true)
 .addField('My ID' , `**${client.user.id}**` , true)
-.addField('Owner Bot',`<@769956996476043275>`,true)
+.addField('Owner Bot',`<@747528109884178532>`,true)
 
 msg.channel.send(embed);
 }
@@ -1155,7 +1155,7 @@ if (cooldown.has(message.author.id)) {
 
 client.on("message",message => {
   if(message.content.startsWith(prefix + "invite")) 
-  message.channel.send("https://discord.com/oauth2/authorize?client_id=711328570374619207&permissions=21474836398&scope=bot");
+  message.channel.send("https://discord.com/api/oauth2/authorize?client_id=771187985270046741&permissions=8&scope=bot");
 }
 
 );
@@ -1163,7 +1163,7 @@ client.on("message",message => {
 ///////
 client.on("message",message => {
   if(message.content.startsWith(prefix + "vote")) 
-  message.channel.send("https://top.gg/bot/711328570374619207");
+  message.channel.send("");
 }
 
 );
