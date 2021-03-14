@@ -1097,7 +1097,7 @@ msg.channel.send(embed);
 }
 });
 
-///////
+//////
 client.on("message", msg =>{
 if(msg.content === prefix + "about"){
 if (cooldown.has(msg.author.id)) {
@@ -1116,16 +1116,16 @@ const embed = new Discord.MessageEmbed()
 .setTitle(` ${client.user.username} `)
 .addField('servers', `**${client.guilds.cache.size}**`, true)
 .addField('channels', `**${client.channels.cache.size}**`, true)
-.addField('Users', `**${client.users.cache.size}**`, true)
+.addField('Users', `** ${client.guilds.cache.reduce((c, v) => c + v.memberCount, 0).toLocaleString()}**`, true)
 .addField('My Name' , `**${client.user.tag}**` , true)
 .addField('My ID' , `**${client.user.id}**` , true)
 .addField('Owner Bot',`<@747528109884178532>`,true)
 
 msg.channel.send(embed);
 }
-});
+}); 
 
-////////
+//////////
 
 client.on("message", message => {
     if(message.content.startsWith(prefix + "userinfo")){
