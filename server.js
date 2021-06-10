@@ -65,17 +65,17 @@ if (cooldown.has(message.author.id)) {
 
 [ Invite ](https://discord.com/api/oauth2/authorize?client_id=771187985270046741&permissions=8&scope=bot)  -  [ Support ](https://discord.gg/XvjBAampgp)  -  [ Website ]()
 
-General
-\`${prefix}about\` - \`${prefix}serverinfo\` - \`${prefix}userinfo\`
-\`${prefix}invite\` - \`${prefix}vote\`
+> General
+\`about\` - \`serverinfo\` - \`userinfo\`
+\`invite\` - \`vote\`
 Security
-\`${prefix}show anti\` - \`${prefix}settings\`
-Moderation
-\`${prefix}lock\` - \`${prefix}unlock\` - \`${prefix}kick\` - \`${prefix}ban\`
-\`${prefix}unban\`
-Fun
-\`${prefix}ship\` - \`${prefix}gay\` - \`${prefix}iq\` - \`${prefix}old\`
-\`${prefix}love\`
+\`show anti\` - \`settings\`
+> Moderation
+\`lock\` - \`unlock\` - \`kick\` - \`ban\`
+\`unban\`
+> Fun
+\`ship\` - \`gay\` - \`iq\` - \`old\`
+\`love\`
 
 `);
 
