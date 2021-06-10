@@ -68,7 +68,7 @@ if (cooldown.has(message.author.id)) {
 > General
 \`about\` - \`serverinfo\` - \`userinfo\`
 \`invite\` - \`vote\`
-Security
+> Security
 \`show anti\` - \`settings\`
 > Moderation
 \`lock\` - \`unlock\` - \`kick\` - \`ban\`
