@@ -39,7 +39,7 @@ client.on("ready", async () => {
   console.log(`${client.user.username} Ready .`);
   console.log(`${client.guilds.cache.size} Servers .`);
   console.log(`${client.users.cache.size} Users .`);
-  client.user.setActivity(prefix + "help -Noga is Here", {
+  client.user.setActivity(prefix + "help -Noga is Here",) {
     type: "PLAYING"
   });
 });
