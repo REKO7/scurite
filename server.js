@@ -61,7 +61,7 @@ if (cooldown.has(message.author.id)) {
       .setThumbnail(message.author.avatarURL)
       .setDescription(`
 
-• To get help on a specific command type \`help <command>@\`
+• Noga Is Here `
 
 [ Invite ](https://discord.com/api/oauth2/authorize?client_id=771187985270046741&permissions=8&scope=bot)  -  [ Support ](https://discord.gg/XvjBAampgp)  -  [ Website ]()
 
