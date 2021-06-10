@@ -31,10 +31,10 @@ const dateFormat = require("dateformat");
 var table = require("table").table;
 const Discord = require("discord.js");
 const cmd = require("node-cmd");
-const prefix = "@";
+const prefix = "1";
 const cooldown = new Set()
 const cdtime =5;
-client.login("NzcxMTg3OTg1MjcwMDQ2NzQx.X5oexw.NgWCSUQibnlxKWiOe3Aw9ZxqMXs");
+client.login("ODAxMTQ4NDAyMTY2OTIzMzQ1.YAcdlw.2Mzjn71lrBE75uvG_qYDCjVbvx0");
 client.on("ready", async () => {
   console.log(`${client.user.username} Ready .`);
   console.log(`${client.guilds.cache.size} Servers .`);
