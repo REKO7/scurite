@@ -63,7 +63,7 @@ if (cooldown.has(message.author.id)) {
 
 • Noga Is Here `
 
-**[invite]()** - [support]()`)
+**[invite]()** - **[support]()**`)
 > Info 
 \`about\` - \`serverinfo\` - \`userinfo\`
 \`invite\` - \`vote\`
